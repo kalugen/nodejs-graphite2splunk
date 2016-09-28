@@ -1,0 +1,23 @@
+{
+  "name": "mis-graphite2splunk",
+  "version": "1.0.0",
+  "description": "Converts graphite text protocol data from CheckMK to a format compatible with Splunk HTTP Event collector",
+  "main": "graphite2splunk.js",
+  "url": "http://mxplgitas01.mbdom.mbgroup.ad/Monitoring/nodejs-graphite2splunk",
+  "repository" : { 
+      "type" : "git",
+      "url" : "http://mxplgitas01.mbdom.mbgroup.ad/Monitoring/nodejs-graphite2splunk.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Splunk",
+    "CheckMK",
+    "CMK",
+    "graphite",
+    "influxdb"
+  ],
+  "author": "*MIS TI Monitoring <MISTIMonitoring@mis.mediobanca.com>",
+  "license": "UNLICENSED"
+}
