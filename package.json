@@ -1,6 +1,6 @@
 {
   "name": "mis-graphite2splunk",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Converts graphite text protocol data from CheckMK to a format compatible with Splunk HTTP Event collector",
   "main": "graphite2splunk.js",
   "url": "http://mxplgitas01.mbdom.mbgroup.ad/Monitoring/nodejs-graphite2splunk",
