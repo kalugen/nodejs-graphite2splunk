@@ -1,5 +1,5 @@
 {
-  "name": "mis-graphite2splunk",
+  "name": "cs-graphite2splunk",
   "version": "1.1.0",
   "description": "Converts graphite text protocol data from CheckMK to a format compatible with Splunk HTTP Event collector",
   "main": "graphite2splunk.js",
