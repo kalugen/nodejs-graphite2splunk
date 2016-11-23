@@ -138,14 +138,12 @@ const server = net.createServer(function(socket) {
         // call Splunk
         while (dataIndex > -1) {
             let line =  data.substring(0, dataIndex);
-
             if(line) {
             	async.series([
-					resolveDns,
-					callSplunk
-				],
-
-				// Handles errors and final response
+                    resolveDns,
+                    callSplunk
+                ],
+                // Handles errors and final response
                 function(err, response, body) {
                     if (err) {
                         return logger.error(err, 'Splunk API Error');
@@ -153,7 +151,6 @@ const server = net.createServer(function(socket) {
                     logger.debug({message: 'response', data: body});
                 });
             }
-
             data = data.substring(dataIndex+1);
             dataIndex = data.indexOf('\n');
         };
